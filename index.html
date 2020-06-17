@@ -20,9 +20,9 @@
         #intro{
             text-align: center;
             display: block;
-            margin: 1%;
+            margin: 0;
             padding: 10px;
-            border-radius: 3%;
+            border-radius: 0;
             background-image: url(https://www.asmag.com/upload/pic/case/49874.1289109.jpg);
             background-position: center;
             background-size: cover;
@@ -31,7 +31,7 @@
     </style>
    
     <div id="intro">
-        <h1 style="margin-top: 80px;"><span style="color: orangered; text-shadow: -4px -1px 0px rgba(255, 255, 0, 1);font-family: Metal Mania; font-size: .8em;">Manufacturing Technology</span><br><span style="font-family: Suez One; font-size: .4em; color: yellow;">online classes collection</span></h1>
+        <h1 style="margin-top: 80px; padding: 10px; margin-bottom: 60px;"><span style="color: orangered; text-shadow: -4px -1px 0px rgba(255, 255, 0, 1);font-family: Metal Mania; font-size: .8em;">Manufacturing Technology</span><br><span style="font-family: Suez One; font-size: .4em; color: yellow;">online classes collection</span></h1>
     </div>
   
     <div>                     
@@ -55,7 +55,7 @@
             text-align: center;
             font-family: cursive;
             margin: auto;
-            padding: 24px;
+            padding: 50px;
                
         }
         .flex-item p{
@@ -72,25 +72,43 @@
         .flex-item p:visited{
             color: darkgreen;
         }
-        
+        #coffee{
+            text-align: center;
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            background: rgb(158,68,0);
+background: linear-gradient(200deg, rgba(158,68,0,1) 0%, rgba(211,169,93,1) 3%, rgba(0,212,255,0) 100%);
+            border-top-right-radius: 20px;
+        }
+        #coffee img{
+            width: 100px;
+        }
+        #p1{
+            color: whitesmoke;
+            font-family: cursive;
+            font-size: 24px; 
+            margin: 0;
+            padding: 0;
+        }
     </style>
     <div class="flex-container" align="center">
         
         <a href="class_one.html">
         <div class="flex-item">
-        <p><span>1<br></span>Class One</p>
+        <p><span>1<br></span>Slidset One</p>
         </div>
         </a>
         
         <a href="class_two.html">
         <div class="flex-item">
-        <p><span>2<br></span>Class Two</p>
+        <p><span>2<br></span>Slidset Two</p>
         </div>
         </a>
         
         <a href="class_three.html">
         <div class="flex-item">
-        <p><span>3<br></span>Class Three</p>
+        <p><span>3<br></span>Slidset Three</p>
         </div>
         </a>
         
@@ -102,30 +120,44 @@
         
         <a href="class_five.html">
         <div class="flex-item">
-        <p><span>5<br></span>Class Five</p>
+        <p><span>5<br></span>Slidset Five</p>
         </div>
         </a>
         
         <a href="class_six.html">
         <div class="flex-item">
-        <p><span>6<br></span>Class Six</p>
+        <p><span>6<br></span>Slidset Six</p>
         </div>
         </a>
         
         <a href="class_seven.html">
         <div class="flex-item">
-        <p><span>7<br></span>Class Seven</p>
+        <p><span>7<br></span>Slidset Seven</p>
         </div>
         </a>
     </div>
-    <marquee direction="left" scrollamount="9"  style="text-align: center; color: black; font-family: monospace; font-size: 12px;">all the audio files used  in this webpages are 32bitrate and it saves almost 75% of data</marquee>
+    
+    <!---buy me a coffee--->
+   <a href="https://www.pmcares.gov.in/en/" id="donation-link" onclick="alertFunction()">
+       <script>
+            function alertFunction(){
+                alert("consider donating to PM CAREs if you trust our country can cure with your money!");
+            }
+       </script>
+    <div id="coffee">
+        <img src="assets/img/my-coffee.png">
+        <p id="p1">Buy devoleper a coffee!</p>
+    </div>
+   </a>
+    
+    <marquee direction="left" scrollamount="8"  style="text-align: center; color: black; font-family: monospace; font-size: 12px; margin: 10px 0 0 0;">all the audio files used  in this webpages are 32bitrate and it saves almost 75% of data</marquee>
     <!--- http://hexgl.bkcore.com/ --->
 
-    <div style="margin-top: 32px; display: block; padding: 4px; align: center; color: white; background-color: seagreen;">
+    <div style="display: block; padding: 4px; align: center; color: white; background-color: seagreen;">
         <p style="text-align: center; color: black;"><span style="font-family: monospace; font-weight: 200; font-size: 18px">©️2020 Nobody<br></span><span style="font-size: 14px; font-family: cursive">all the contents provided in this web page are, not at all belongs to me!</span></p>
     </div>   
     
-
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
