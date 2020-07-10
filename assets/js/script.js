@@ -1,4 +1,4 @@
 $(window).on("load", function(){
-            $("#load-animation").fadeOut(300);
-            $("#non-animated-onload").fadeIn(300);
+            $("#load-animation").fadeOut(1000);
+            $("#non-animated-onload").fadeIn(800);
         });
